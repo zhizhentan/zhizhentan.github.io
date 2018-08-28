@@ -1,0 +1,110 @@
+
+.a{
+font-family: 'Noto Sans', sans-serif;
+
+}
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;}
+/*怎么定义两种的hover状态*/
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+ul{
+	list-style-type:none;
+	margin:0;
+  padding:0;
+  position:absolute;
+  left:14%;
+  top:16%;
+  bottom:20%;
+}
+
+li{
+  
+  padding:0px;
+}
+
+.asd {
+    width: 30vw;
+    height: 23vh;
+    left:45vw;
+    top:35vh;
+    bottom:40vh;
+    right:45vw;
+    background: white;
+    position: relative;
+    -webkit-animation: myfirst 6s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate-reverse; /* Safari 4.0 - 8.0 */
+    animation: myfirst 6s infinite;
+    animation-direction: alternate-reverse;
+    text-align:center;
+}
+
+/* Safari 4.0 - 8.0 */
+*@-webkit-keyframes myfirst {
+    0%   {background: white;  width: 180px;
+    height: 23vh;
+    left:40vw;
+    top:35vh;
+    bottom:40vh;
+    right:45vw;;}
+    25%  {background: white; transform: matrix(1, -0.3, 0, 1, 0, 0);}
+    50%  {background: white; transform: matrix {background: white;  width: 180px;
+    height: 23vh;
+    left:45vw;
+    top:35vh;
+    bottom:40vh;
+    right:45vw;;};}
+    75%  {background: white; transform: matrix(1, -0.3, 0, 1, 0, 0);}
+    100% {background: white;  width: 180px;
+    height: 23vh;
+    left:45vw;
+    top:35vh;
+    bottom:40vh;
+    right:45vw;;}
+}
+
+@keyframes myfirst {
+    0%   {background: white;  width: 180px;
+    height: 20vh;
+    left:45vw;
+    top:35vh;
+    bottom:40vh;
+    right:45vw;;}
+    25%  {background: white; transform: matrix(1, -0.3, 0, 1, 0, 0);}
+    50%  {background: white; transform: matrix {background: white;  width: 180px;
+    height: 20vh;
+    left:45vw;
+    top:35vh;
+    bottom:40vh;
+    right:45vw;;};}
+
+    75%  {background: white; transform: matrix(1, -0.3, 0, 1, 0, 0);}
+    100% {background: white;  width: 180px;
+    height: 20vh;
+    left:45vw;
+    top:35vh;
+    bottom:40vh;
+    right:45vw;;}
+}
+
+
+
+
