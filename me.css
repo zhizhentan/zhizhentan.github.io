@@ -1,0 +1,112 @@
+
+.a{
+font-family: 'Noto Sans', sans-serif;
+
+}
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;}
+/*怎么定义两种的hover状态*/
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+ul{
+	list-style-type:none;
+	margin:0;
+  padding:0;
+}
+
+li{
+  
+  padding:0px;
+}
+
+.main-navigation{
+width:200px;
+height:100%;
+position:fixed;
+float:left;
+background-color:white;
+margin:0;  
+padding:10px;
+/*为什么有白边*/
+}
+
+
+.project-navigation{
+width:200px;
+height:100%;
+position:fixed;
+top:120px;
+background-color:white;
+padding:10px;
+}
+
+.project-list{
+width:33.33%;
+height:100%;
+background-color:white;
+margin:0;
+position:absolute;
+top:0;
+left:210px;
+float:right;
+margin:0;
+/* 为什么取消了margin不是相切而是重合*/
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.img-container {
+    float: left;
+    width: 50%;
+    padding: 6px;
+    margin:0;
+    text-align:center;
+    position:relative;
+
+}
+
+/*project 图片上的浮窗*/
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position:relative;
+}
+
+
+span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    
+    background-color: yellow; 
+}
+}
+
+
