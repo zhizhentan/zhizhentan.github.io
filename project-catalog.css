@@ -52,6 +52,7 @@ padding:10px;
 
 
 .project-navigation{
+  color: gray;
 width:200px;
 height:100%;
 position:fixed;
