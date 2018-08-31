@@ -130,8 +130,19 @@ margin:0;
   right:40%;
   float:center;
   font-size:26px;
-  
-  
 }
 
+.refer {
+color: gray;
+float: left;
+text-align: left;
+position: absolute;
+right: 0;
+left:14vw;
+bottom: -152vh;
+
+
+
+
+}
 

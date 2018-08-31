@@ -92,7 +92,7 @@ margin:0;
 
 /*project 图片上的浮窗*/
 .image {
-  opacity: 1;
+  opacity: 0.3;
   display: block;
   width: 100%;
   height: auto;
@@ -120,7 +120,7 @@ margin:0;
 }
 
 .img-container:hover .image {
-  opacity: 0.2;
+  opacity: 1;
   position:relative;
 }
 
