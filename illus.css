@@ -1,7 +1,16 @@
+a{
+font-family: 'Nunito', sans-serif;
 
-.a{
-font-family: 'Noto Sans', sans-serif;
+}
 
+p{
+font-family: 'Nunito', sans-serif;
+
+}
+
+.p2{
+  font-weight: bold;
+   color: black;
 }
 
 a:link {

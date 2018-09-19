@@ -1,20 +1,34 @@
-
-.a{
-font-family: 'Noto Sans', sans-serif;
+a{
+font-family: 'Nunito', sans-serif;
 
 }
+
+p{
+font-family: 'Nunito', sans-serif;
+
+}
+
+h3{
+font-family: 'Nunito', sans-serif;
+
+}
+
+
 
 a:link {
     color: black; 
     background-color: transparent; 
     text-decoration: none;
+    font-family: 'Nunito', sans-serif;
 
 }
 
 a:visited {
     color: black;
     background-color: transparent;
-    text-decoration: none;}
+    text-decoration: none;
+  }
+
 /*怎么定义两种的hover状态*/
 a:hover {
     color: gray;

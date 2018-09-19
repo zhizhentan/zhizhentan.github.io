@@ -1,9 +1,12 @@
-
-.a{
-font-family: 'Noto Sans', sans-serif;
+a{
+font-family: 'Nunito', sans-serif;
 
 }
 
+p{
+font-family: 'Nunito', sans-serif;
+
+}
 a:link {
     color: black; 
     background-color: transparent; 
