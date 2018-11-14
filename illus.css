@@ -1,16 +1,19 @@
 a{
-font-family: 'Nunito', sans-serif;
+font-family: 'DINosaur', sans-serif;
 
 }
 
 p{
-font-family: 'Nunito', sans-serif;
+font-family: 'DINosaur', sans-serif;
 
 }
 
 .p2{
   font-weight: bold;
    color: black;
+   background-color:yellow; 
+   font-family: 'DIN Condensed',sans-serif; 
+   font-size: 20px;"
 }
 
 a:link {
