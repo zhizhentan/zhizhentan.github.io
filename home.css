@@ -8,9 +8,16 @@ font-family: 'DINosaur', sans-serif;
 
 }
 
-h4{
-font-family: 'DINosaur', sans-serif;
+h3{
+font-family: 'DIN Condensed', sans-serif;
+}
 
+h4{
+font-family: 'DIN Condensed', sans-serif;
+}
+
+h2{
+font-family: 'DIN Condensed', sans-serif;
 }
 
 a:link {
