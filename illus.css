@@ -13,6 +13,16 @@ font-family: 'DINosaur', sans-serif;
 color: gray;
 }
 
+ol{
+ font-family: 'DINosaur', sans-serif;
+color: gray; 
+}
+
+ul{
+  font-family: 'DINosaur', sans-serif;
+color: gray;
+}
+
 .p2{
   font-weight: bold;
    color: black;
