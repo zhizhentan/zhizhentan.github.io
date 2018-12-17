@@ -8,6 +8,11 @@ font-family: 'DINosaur', sans-serif;
 
 }
 
+li{
+font-family: 'DINosaur', sans-serif;
+color: gray;
+}
+
 .p2{
   font-weight: bold;
    color: black;
