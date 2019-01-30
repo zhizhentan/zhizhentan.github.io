@@ -52,11 +52,13 @@ line-height: 150%;
 
 =======
 >>>>>>> parent of c40dd75... fl2
-.p2{
+
+span.p2{
   font-weight: bold;
-   color: black;
+   /*color: black;*/
    background-color:yellow; 
-   font-family: 'DIN Condensed',sans-serif; 
+   font-family: 'DIN Condensed', sans-serif;
+color: gray;
    font-size: 20px;"
 }
 
