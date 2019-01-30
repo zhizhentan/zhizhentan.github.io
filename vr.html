@@ -1,0 +1,702 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>  Design of Virtual Reality Scenes with Variable Levels of Fear Evocation | JT Design</title>
+	  <link rel="icon" type="image/png" href="pic/JT.png">
+	<link rel="stylesheet" type="text/css" href="illus.css">
+	<link rel="icon" type="image/png" href="pic/JT.png">
+<link rel="stylesheet" href="https://use.typekit.net/bph6wdt.css">	<style>
+</style>
+<!-- <link href="https://fonts.googleapis.com/css?family=DINosaur" rel="stylesheet"> -->
+<script>
+	var flag=0;
+	function diffImage1(img) 
+	{     
+		if(flag>2){
+			flag=0;}
+
+			if(flag==1)
+			{
+				img.src = "pic/iaps1 copy.jpg";
+				flag++;	
+			}else
+			{
+				img.src = "pic/iaps1.jpg";
+				flag++;	
+			} 
+		}
+
+		function diffImage4(img) 
+		{     
+			if(flag>2){
+				flag=0;}
+
+				if(flag==1)
+				{
+					img.src = "pic/iaps4 copy.jpg";
+					flag++;	
+				}else
+				{
+					img.src = "pic/iaps4.jpg";
+					flag++;	
+				} 
+			}
+
+			function diffImage3(img) 
+			{     
+				if(flag>2){
+					flag=0;}
+
+					if(flag==1)
+					{
+						img.src = "pic/iaps3 copy.jpg";
+						flag++;	
+					}else
+					{
+						img.src = "pic/iaps3.jpg";
+						flag++;	
+					} 
+				}
+
+				function diffImage2(img) 
+				{     
+					if(flag>2){
+						flag=0;}
+
+						if(flag==1)
+						{
+							img.src = "pic/iaps2 copy.jpg";
+							flag++;	
+						}else
+						{
+							img.src = "pic/iaps2.jpg";
+							flag++;	
+						} 
+					}
+
+					function diffImage5(img) 
+					{     
+						if(flag>2){
+							flag=0;}
+
+							if(flag==1)
+							{
+								img.src = "pic/vr5 copy.png";
+								flag++;	
+							}else
+							{
+								img.src = "pic/vr5.png";
+								flag++;	
+							} 
+						}
+
+
+					</script>  
+				</head>
+				<body>
+					
+	<!-- main navigation -->
+<div class="main-navigation" >
+	<ul>
+    <li ><h2  >Jerry Tan Design</h2></li>
+		<li >
+		<a href="index.html" >Home</a>
+	</li>
+		<li >
+			<a href="project-catalog.html" >Projects</a>
+		</li>
+		 <li >
+		 	<a href="me.html" >About me</a>
+		 </li>
+		</ul>
+		</div>
+
+<!-- project navigation -->
+
+<div class="project-navigation">
+	<nav>
+		<ul>
+			<li>
+		<a href="illus.html" style=" color: gray;  ">illus - conceptual printer</a>
+	    </li>
+		<li>
+		<a href="ima.html"  style=" color: gray;">ima - medical aid apps</a>
+		</li>
+		 <li>
+		 	<a href="vsr.html" style=" color: gray;">VSR - conceptual vehicle</a>
+		</li>
+
+    <li>
+      <a href="tri-4.html" style=" color: gray; ">TRI-4 - modular shoes</a>
+     </li>
+
+     <li>
+      <a href="vr.html" style=" color: gray;" style="background-color:yellow">VR fear evocative design</a>
+     </li>
+        <li>
+      <a href="instructionsforstrangers.html" style=" color: gray; ">Instructions for strangers</a>
+     </li>
+      
+		<li>
+		 	<a href="isawnothing.html" style=" color: gray;">"I saw nothing" </a>
+		</li>
+		 <li>
+		 	<a href="antiblue.html" style=" color: gray;">Anti-blue propaganda</a>
+		 </li>
+		 
+		 <li>
+		 	<a href="ml.html" style=" color: gray; ">Machine learning projects</a>
+		 </li>
+		</nav>
+		</div>
+
+
+<!-- project pic list -->
+
+						<div class="project-list"> 
+							<!-- 为什么一运行上边这么多的留白 怎么锁住左右-->
+							<div >
+
+
+
+
+
+
+								<p style="color:gray" > 
+									<span class="p2" style="background-color:yellow;">Design of Virtual Reality Scenes with Variable Levels of Fear Evocation</span><br>
+									Group project of Dan Liao, Yanping Huang and Zhizhen (Jerry) Tan, 2017.<br><br>
+
+									In this study we set up a systematic approach for the design of emotion evocative VR scenes, using fear as an example. In conclusion, we have built up a series of fear evocative VR scenes, which can induce different levels of fear with high effectiveness of fear elicitation in the VR environment. <br><br>
+
+									The corresponding paper, <a href="https://link.springer.com/chapter/10.1007/978-3-319-91584-5_9" style="color:gray" ><i><u>Virtual Reality Scenes with Variable Levels of Fear Elicitation</u></i></a>, are published and presented on the HCI International 2018, Las Vegas.<br><br>
+
+
+									Keywords: Virtual Reality, Scenes Design, Fear Evocation. <br>
+									<br><br>
+
+
+									<span class="p2" style="background-color:yellow;"> Fear and Emotion Evocation</span> <br>
+									Many scholars have different definitions of fear. Overall, fear is one of the basic emotions of human which are comprehensive representations of human psychology and consciousness. <br><br>
+									The evocation of emotion has been applied to many areas including diagnosis of mental illness, mental health assessment [1], cognitive science research [2], game design [3]. Emotional evocation can also be used as a tool to enhance user experience in design process [4].<br><br>
+
+
+									<span class="p2" style="background-color:yellow;"> Existent Ways To Induce Fear And Other Emotions In The Laboratory:</span> <br>
+									At present there are several ways to induce different emotions in the laboratory, each of which have significant limitations.
+									<!-- <br> --><br></p>
+
+									<ol>
+										<li>Visual stimuli <br>
+											<ol style="list-style-type:disc;">
+												<li>Examples: The International Affective Picture System(IAPS)[5] and the Chinese Affective Picture System(CAPS)[6].<br></li>
+												<li>Limitations: Single channel stimuli with low ecological effect<br></li></ol>
+
+												<!-- <br> -->
+
+												<li>Auditory stimuli<br>
+													<ol style="list-style-type:disc;">
+														<li>Examples: The International Affective Digital Sounds(IADS)[7] and the Chinese Affective Digital Sounds(CADS)[8].<br></li>
+														<li>Limitations: Single channel stimuli with low ecological effect<br></li></ol>
+														<!-- <br> -->
+
+														<li>Video stimuli<br>
+															<ol style="list-style-type:disc;">
+																<li>Examples: Movie clips based on the study of Gross and Levenson[9] and the Chinese Emotional Visual Stimulus(CEVS)[10].<br></li>
+																<li>Limitations: Related material is limited in quantity and the generated fear level is not clear. <br></li></ol>
+
+
+																<li>Olfactory stimuli <br>
+																	<ol style="list-style-type:disc;">
+																		<li>Examples: The Consumer Fragrance Thesaurus[11].<br></li>
+																		<li>Limitations: Single channel stimuli with low ecological effect. <br></li></ol>
+																		<!-- <br> -->
+
+																		<li>Imagination stimuli<br>
+																			<ol style="list-style-type:disc;">
+																				<li>Examples: The Affective Norms for English Words(ANEW)[12] and the Affective Norms for English Text(ANET)[13].<br></li>
+																				<li>Limitations: Greatly influenced by individual’s imagination ability.<br></li></ol>
+																				<!-- <br> -->
+
+																				<li>Expression stimuli<br>
+																					<ol style="list-style-type:disc;">
+																						<li>Subjects are instructed to control their own facial muscles, making their facial expressions consistent with the reference facial expressions reflecting the target emotions, thereby inducing the target emotions[14].<br></li>
+																						<li>Limitations: Greatly affected once the subjects know the purpose of the experiment.<br></li></ol>
+																						<!-- <br> -->
+
+																						<li>Situation stimuli<br>
+																							<ol style="list-style-type:disc;">
+																								<li>Induce emotions by placing the subjects in a simulated or real life situation[15].<br></li>
+																								<li>Limitations: Demand the subjects have some performance skills, and it is not easy to take the sample. <br></li></ol>
+																								<br>
+																							</ol>
+
+
+
+																							<p style="color:gray" > 
+																								<span class="p2" style="background-color:yellow;"> Design Goal:</span> <br>
+																								VR is a potential technology to solve problems like inefficient emotion elicitation and high susceptibility to ambient interferences by providing immersive and realistic experience in terms of emotion elicitation. Therefore, we analyzed the design elements from existing materials which can evoke fear, and then built up a series of fear evocative VR scenes, which can evoke different levels of fear with improved efficiency of elicitation.<br><br>
+
+																								In short, we set up a systematic approach for the design of emotion evocative VR scenes, using fear as an example. 
+																								<br><br>
+
+																								We try to build up three fear evocative VR scenes that can induce different levels of fear with high effectiveness of fear elicitation in the VR environment, two of which can induce severe fear and one of which can induce moderate fear.<br><br>
+
+
+
+
+																								<span class="p2" style="background-color:yellow;"> Method Of Emotion Measurement:</span> <br>
+																								The Self- Assessment Manikin (SAM) [16] is a non-verbal pictorial assessment technique that directly measures the valence, arousal, and dominance associated with a person's affective reaction to a wide variety of stimuli. In this paper, we defined fear as the emotion with valence of no more than 4 and arousal greater than 4. And the level of fear could be further classified as 4 classes based on the value of arousal: slight fear (4-5), mild fear (5-6), moderate fear (6-7) and severe fear (>7).
+																								<br><br>
+
+																								<span class="p2" style="background-color:yellow;"> Design Process Step 1: Feature Extraction Of Critical Element For Fear Evocation:</span> <br>
+																								VR technology is a combination of visual media and audio media. Therefore, we analyzed and extracted fear evocative elements from emotional evoked material libraries which can provide visual stimuli, auditory stimuli and video stimuli.<br><br>
+
+																								<ol style="list-style-type:disc;">
+																									<li>Step 1-1: Fear feature analysis of IAPS <br><br>
+																										With the classification above, we analyzed the features of the elements in IAPS pictures of each class of fear from three aspects: attributes, semantic features and expressive features.<br><br>
+																										Attribute is the nature of the element; for instance, a decaying corpse and a skull share the same attribute of human body. Semanteme refers to the meaning of the element; for instance, a decaying corpse means a horrible death and a sharp knife means hurt. Expression means the morphological character of the element; for instance, a decaying corpse is designed to be twisted and incomplete.<br><br>
+																									WARNING: PICTURES IN THE FOLLOWING TABLES MIGHT CAUSE YOUR DISCOMFORT. CLICK TO REMOVE THE MOSAIC REVERSIBLY. </p>
+
+																									<table align="center" style="width:50%;">
+
+																										<tr>
+																											<th>Level of arousal</th>
+																											<th>Sample</th>
+																											<th>Attribute</th>
+																											<th>Semanteme</th>
+																											<th>Expression</th>
+																										</tr>
+																										<tr>
+																											<td> Severe fear (>7)</td>
+																											<td><img src="pic/iaps1 copy.jpg" alt="iaps1.jpg" style="height: 10%;"   onclick=diffImage1(this)  /></td>
+																											<td>Severely bloody, deformed human body.</td>
+																											<td>Horrible death, Extremely, Severe hurt.</td>
+																											<td>Blood red, incompleteness, deformity.</td>
+
+																										</tr>
+																										<tr>
+																											<td>Moderate fear (6-7)</td>
+																											<td><img src="pic/iaps2 copy.jpg" alt="iaps2.jpg" style="height: 10%;"   onclick=diffImage2(this) /></td>
+																											<td>Bloody or deformed human body; aggressive animal; lethal weapon or tool; severe catastrophe.</td>
+																											<td>Horrible death, Extremely, Severe hurt.</td>
+																											<td>Blood red, incompleteness, deformity.</td>
+																										</tr>
+																										<tr>
+																											<td> Mild fear (5-6)</td>
+																											<td><img src="pic/iaps3 copy.jpg" alt="iaps3.jpg" style="height: 10%;"  onclick=diffImage3(this) /></td>
+																											<td>Wounded human body, mummification; wounding weapon or tool; catastrophe.</td>
+																											<td>Hurt, pain.</td>
+																											<td>Abnormality.</td>
+																										</tr>
+																										<tr>
+																											<td>Slight fear (4-5) </td>
+																											<td><img src="pic/iaps4 copy.jpg" alt="iaps4.jpg" style="height: 10%;"  onclick=diffImage4(this) /></td>
+																											<td>Skull; graveyard; disgusting animal.</td>
+																											<td>Death, plague, dinginess.</td>
+																											<td>Low saturation, color, chaos.</td>
+																										</tr>
+
+																									</table>
+																									<br><br>
+																								</li>
+																								<li>Step 1-2: Fear feature analysis of CADS <br><br>
+																									In the establishment of CADS, Liu [17] sums up the sound materials into 6 categories: surprise, neutrality, activation, pleasure, disgust and fear. We analyzed the sound materials of type of fear. 
+																									According to the sources of the sounds, we divided these voices into the sound of role and the sound of environment. <br></p>
+
+																									<ol style="list-style-type:disc;">
+																										<li> The sound of role: the sound is mainly made by the narrative subjects itself with clear meanings.
+																											<table align="center" style="width:55%;">	
+																												<tr>
+																													<th>Level of arousal</th>
+
+																													<th>Attributes</th>
+																													<th>Semanteme</th>
+																													<th>Expression</th>
+																												</tr>
+																												<tr>
+																													<td> Severe fear (>7)</td>
+																													<td>Heartrending scream and moan, sound of hitting human body.</td>
+																													<td>Torture, pain, hurt.</td>
+																													<td>Sudden and intermittent voice, sharp yell.</td>
+
+
+																												</tr>
+																												<tr>
+																													<td>Moderate fear (6-7)</td>
+																													<td>Moan and wail, weird sound made by human.</td>
+																													<td>Sorrow and unluckiness, unknown and abnormal situation.</td>
+																													<td>Trembling faint voice, fierce cry and wail.</td>
+																												</tr>																		
+																											</table><br></li>
+																											<li>The sound of environment: the sound is mainly made by the narrative subjects itself with clear meanings. 
+																												<table align="center" style="width:55%;">	
+																													<tr>
+																														<th>Level of arousal</th>
+
+																														<th>Attributes</th>
+																														<th>Semanteme</th>
+																														<th>Expression</th>
+																													</tr>
+																													<tr>
+																														<td> Severe fear (>7)</td>
+																														<td>Alarm, sound of accident.</td>
+																														<td>Severe diaster.</td>
+																														<td>Sudden and intermittent voice.</td>
+
+
+																													</tr>
+																													<tr>
+																														<td>Moderate fear (6-7)</td>
+																														<td>Alarm, sound of dangerous object.</td>
+																														<td>Danger, disaster.</td>
+																														<td>Sharp and hasty sound.</td>
+																													</tr>		
+																													<tr>
+																														<td>Mild fear (5-6)</td>
+																														<td>Sound of dangerous object.</td>
+																														<td>Danger.</td>
+																														<td>Sudden sharp sound.</td>
+																													</tr>																	
+																												</table><br><br>
+																											</li>
+																										</ol>
+																									</li>
+																									<li>Step 1-3: Fear feature analysis of CEVS and other horror films and video clips <br><br>
+																										The Chinese Affective Video System (CEVS) [18] contains 30 film clips, which can induce six emotions including anger, fear, sadness, happiness, disgust and neutrality. There are five film clips which could induce fear. We also analyzed a number of horror films and television works. <br><br>
+
+																										We analyzed the feature elements in the following aspects: role design, scene design, rhythm design and plot design.
+																										<table align="center" style="width:50%;">
+																											<tr>
+																												<th>Design aspect</th>
+																												<th>Sample</th>
+																												<th>Attribute</th>
+																												<th>Semanteme</th>
+																												<th>Expression</th>
+																											</tr>
+																											<tr>
+																												<td> Character design</td>
+																												<td><img src="pic/vr5 copy.png" alt="vr5.png" style="height: 10%;" onclick=diffImage5(this) /></td>
+																												<td>The symbol of abnormal death, such as deformed body.</td>
+																												<td>Abnormal death, undead retaliation.</td>
+																												<td>Bloody body, pale body, twisted and incomplete body.</td>
+
+																											</tr>
+																											<tr>
+																												<td>Scene design</td>
+																												<td><img src="pic/vr6.png" alt="vr6.png" style="height: 10%;"></td>
+																												<td>Sealed space, endless space, dusky space.</td>
+																												<td>Loneliness， helplessness, confinement, unknown.</td>
+																												<td>Colors of cold hue and low saturation; cold and hard material.</td>
+																											</tr>
+																											<tr>
+																												<td> Rhythm design</td>
+																												<td><img src="pic/vr7.png" alt="vr7.png" style="height: 10%;"></td>
+																												<td>Fast, slow, alternating rhythm.</td>
+																												<td>Nervous, perturbed, calm, complicated.</td>
+																												<td>Rhythm alternating, the horror scenes are usually set after a person feels safe. </td>
+																											</tr>
+																											<tr>
+																												<td>Plot design</td>
+																												<td><img src="pic/vr8.png" alt="vr8.png" style="height: 10%;" /></td>
+																												<td>Escape, mystery, numinous phenomena.</td>
+																												<td>Unknown, precarious, creepy.</td>
+																												<td>Escape, suspense, confrontation, break taboos.</td>
+																											</tr>
+																										</table><br><br>
+																									</li>
+																									<li>Step 1-4: Summary of fear feature analysis<br><br>
+																										Based on above mentioned analysis, we found that the fear features of different levels can be clearly distinguished and regularities of gradual change exists. This features and regularities can be used as a rationale for further design of VR fear provoked scenarios that can evoke different levels of fear. <br><br>
+
+																									</li>
+																								</ol>
+																								<span class="p2" style="background-color:yellow;"> Design Process Step 2: Development Of VR Fear Scenes:</span> <br></p>
+																								<div class="img-container">
+																									<img src="pic/vr9.jpg" alt="vr9.jpg" style="width:30%" >
+																								</div>
+																								<p style="color:gray" > 
+																								<span class="p2" style="background-color:yellow;"> Scenes Description:</span> <br></p>
+
+																								<div class="img-container">
+																									<img src="pic/vr10.jpg" alt="vr10.jpg" style="width:50%; align" >
+																								</div>
+																								<div class="img-container">
+																									<video style="width:50%"  controls>
+																										<source src="pic/fear.mp4" type="video/mp4">
+																										</video>
+
+																									</div>
+
+
+																								<p style="color:gray" > 
+																								<table  align="center" style="width:50%;">
+																								<tr>
+																									<td>NO.</td>
+																									<td>1</td>
+																								</tr>
+																								<tr>
+																									<td> Name</td>
+																									<td>Dilapidated Basement</td>
+																								</tr>
+																								<tr>
+																									<td>Scene element</td>
+																									<td>Basement Zombies, residual limbs, a broken stair, construction rubbishes.</td>
+																								</tr>
+																								<tr>
+																									<td>Color</td>
+																									<td>Black, red, green.</td>
+																								</tr>
+																								<tr>
+																									<td>Lighting effect</td>
+																									<td>Low brightness.</td>
+																								</tr>
+																								<tr>
+																									<td>Dynamic effect</td>
+																									<td>Crawl forward, capture.</td>
+																								</tr>
+																								<tr>
+																									<td>Plot</td>
+																									<td>Chase and escape.</td>
+																								</tr>
+																								<tr>
+																									<td>Rhythm </td>
+																									<td> An alternating rhythm.</td>
+																								</tr>
+																								<tr>
+																									<td> Sound</td>
+																									<td>Cries of a girl, Soprano singing, roars of monsters.</td>
+																								</tr>
+																								<tr>
+																									<td>Sound effect</td>
+																						
+																									<td>Asymptotically increasing.</td>
+																								</tr>
+																								<tr>
+																									<td>Camera perspective </td>
+																									<td>Low height.</td>
+																								</tr>
+																							</table><br><br></p>
+																							<div class="img-container">
+																									<img src="pic/vr11.jpg" alt="vr11.jpg" style="width:50%" >
+																								</div>
+
+																								<p style="color:gray" > 
+																								<table  align="center" style="width:50%;">
+																								<tr>
+																									<td>NO.</td>
+																									<td>2</td>
+																								</tr>
+																								<tr>
+																									<td> Name</td>
+																									<td>Horrible Underground Palace</td>
+																								</tr>
+																								<tr>
+																									<td>Scene element</td>
+																									<td>Palace zombies, skulls, a bat, torches, snakes.</td>
+																								</tr>
+																								<tr>
+																									<td>Color</td>
+																									<td>Brown, grey, red, blue.</td>
+																								</tr>
+																								<tr>
+																									<td>Lighting effect</td>
+																									<td>Medium brightness. </td>
+																								</tr>
+																								<tr>
+																									<td>Dynamic effect</td>
+																									<td>Creep and attack.</td>
+																								</tr>
+																								<tr>
+																									<td>Plot</td>
+																									<td>Guide and observe.</td>
+																								</tr>
+																								<tr>
+																									<td>Rhythm </td>
+																									<td> An alternating rhythm.</td>
+																								</tr>
+																								<tr>
+																									<td> Sound</td>
+																									<td>Sound of water, sound of zombies.</td>
+																								</tr>
+																								<tr>
+																									<td>Sound effect</td>
+																						
+																									<td>Surrounding sound.</td>
+																								</tr>
+																								<tr>
+																									<td>Camera perspective </td>
+																									<td>Normal height.</td>
+																								</tr>
+																							</table><br><br></p>
+																							<div class="img-container">
+																									<img src="pic/vr12.jpg" alt="vr12.jpg" style="width:50%" >
+																								</div>
+
+																								<p style="color:gray" > 
+																								<table  align="center" style="width:50%;">
+																								<tr>
+																									<td>NO.</td>
+																									<td>3</td>
+																								</tr>
+																								<tr>
+																									<td> Name</td>
+																									<td>Abandoned Factory</td>
+																								</tr>
+																								<tr>
+																									<td>Scene element</td>
+																									<td>Factory, centipedes, mosquitoes, black bugs, construction rubbishes.</td>
+																								</tr>
+																								<tr>
+																									<td>Color</td>
+																									<td>Green, grey.</td>
+																								</tr>
+																								<tr>
+																									<td>Lighting effect</td>
+																									<td>High brightness. </td>
+																								</tr>
+																								<tr>
+																									<td>Dynamic effect</td>
+																									<td>Creep and attack.</td>
+																								</tr>
+																								<tr>
+																									<td>Plot</td>
+																									<td>Guide and observe.</td>
+																								</tr>
+																								<tr>
+																									<td>Rhythm </td>
+																									<td> An smooth rhythm.</td>
+																								</tr>
+																								<tr>
+																									<td> Sound</td>
+																									<td>Sound of insects.</td>
+																								</tr>
+																								<tr>
+																									<td>Sound effect</td>
+																						
+																									<td>Asymptotically increasing.</td>
+																								</tr>
+																								<tr>
+																									<td>Camera perspective </td>
+																									<td>Low height.</td>
+																								</tr>
+																							</table><br><br>
+
+																							<span class="p2" style="background-color:yellow;"> Design Process Step 3: Evaluation Of Designed Fear VR Scenes By Self- Assessment Manikin (SAM):</span> <br></p>
+																							
+
+
+
+
+																								<p style="color:gray" > 
+																								<ol style="list-style-type:disc;">
+																									<li>Experiment flow
+																										<div class="img-container">
+																									<img src="pic/vr13.jpg" alt="vr13.jpg" style="width:50%" >
+
+																								</div>
+																									</li>
+
+																									<li>
+																										Results
+																										<table  align="center" style="width:50%;">
+																											<tr>
+																												<th>NO.</th>
+																												<th>Scene </th>
+																												<th>Mean score of valence</th>
+																												<th>Mean score of arousal </th>
+																												<th>Mean score of dominance</th>
+																											</tr>
+																											<tr>
+																												<td>1</td>
+																												<td>Dilapidated Basement </td>
+																												<td> 2.6</td>
+																												<td> 7.4</td>
+																												<td> 4.2</td>
+																											</tr>
+																											<tr>
+																												<td>2</td>
+																												<td>Horrible Underground Palace   </td>
+																												<td> 2.7</td>
+																												<td> 7.0</td>
+																												<td> 5.0</td>
+																											</tr>
+																											<tr>
+																												<td>3</td>
+																												<td>Abandoned Factory      </td>
+																												<td> 3.1</td>
+																												<td> 6.4</td>
+																												<td> 5.0</td>
+																											</tr>
+																										</table><br>
+																											<div class="img-container">
+																									<img src="pic/vr14.jpg" alt="vr14.jpg" style="width:50%" >
+																								</div>
+																									</li>
+
+
+
+
+																								</ol>
+
+
+
+
+
+
+
+
+
+
+
+																								<p style="color:gray" > 
+
+
+																									<span class="p2" style="background-color:yellow;"> Conclusion:</span> <br>
+																									The experimental result above shows that the designed fear VR scenes can evoke different levels of fear and reveals that our design approach is effective, which can be used as guideline principles for designing more fear scenes or other types of emotional scenes. 
+																									<br><br>
+
+																									<span class="p2" style="background-color:yellow;"> Limitation:</span> <br>
+																									<ol style="list-style-type:disc;">
+																										<li>
+																									The current method is to empirically select elements from the design reference, merge them to be scenes and then test the designed scenes using SAM to get the precise fear evocative level of the scenes. </li>
+																									<li>The effects of the combinations of the elements cannot be effectively controlled and predicted in advance. For the time being, we have no algorithm that can calculate the fear evocative level of the scenes directly, resulting in low production efficiency.</li>
+																									<li>There is no direct evidence to show proof that the VR fear evocative scenes have higher ecological effect than traditional visual fear stimuli</li>
+																									<br><br>
+																								</ol>
+																								<p style="color:gray" > 
+
+																								<span class="p2" style="background-color:yellow;"> Reflection:</span> <br>
+																								In the future work report of the project, I mentioned that we should develop a machine learning algorithm to analyze the pictures in IAPS more accurately. A new idea came to me that perhaps in this way, we can make the machine understand the human feeling. <br><br>
+
+																								
+																								<span class="p2" style="background-color:yellow;"> References:</span> 
+
+																									<ul>
+																										<li> 1. Young, M. E., Bemak, F.: The Role of Emotional Arousal and Expression in Mental Health Counseling. [J]. Journal of Mental Health Counseling, 18 (1996).  </li>
+
+																									<li>2. Salterspedneault, K.,Gentes,E., Roemer,L.:The role of fear of emotion in distress, arousal, and cognitive interference following an emotional stimulus. [J]. Cogn Behav Ther 36(1):12-22 (2007). </li>
+<li>3. Ravaja, N., Salminen, M., Holopainen, J., et al.: Emotional response patterns and sense of presence during video games: potential criterion variables for game design. [C]. Nordic Conference on Human-Computer Interaction volume(issue):339-347 (2004).  </li><li>4. Piqueras-Fiszman, B., Jaeger,S.R.:The impact of the means of context evocation on consumers’ emotion associations towards eating occasions. [J]. Food Quality and Preference 37(37):61-70 (2014). </li>
+
+<li>5. Center for the Study of Emotion and Attention (CSEA-NIMH).: The International Affective Picture System: Digitized Photographs, Center for Research in Psychophysiology. Univ. of Florida (1995).</li>
+<li>6. Bai L., Ma H., Huang Y.X., Luo Y.J.: The Development of Native Chinese Affective Picture System--A pretest in 46 College Students. [J]. Chinese Mental Health Journal 19(11)，719-722 (2005). (in Chinese)</li>
+<li>7. Bradley, M. M., Lang, P. J.: The International Affective Digitized Sounds Affective Rat- ings of Sounds and Instruction Manual. [J]. University of Florida (2007). </li>
+<li>8. Liu T.S., Luo Y.J., Ma H., et al.: The compilation and evaluation of localized emotional sound library. [J]. Psychosocial Science 29 (2), 406-408 (2006). (in Chinese) </li>
+<li>9. James, J., Gross, Robert, W. Levenson.: Emotion elicitation using films. Cognition and Emotion 9(1), 87-108 (1995). </li>
+<li>10. Xu P.F, Huang Y.X., Luo Y.J..: Preliminary compilation and evaluation of Chinese emo- tional image materials library. [J]. Chinese Journal of Mental Health 24(7), 551-554 (2010). (in Chinese) </li>
+<li>11. Warrenburg, S.: Measurement of Emotion in Olfactory Research. [J]. Acs Symposium 825, 243-260 (2002).</li>
+<li>12. Bradley, M. M., Lang, P. J.: Affective Norms for English Words (ANEW): Instruction Manual and Affective Ratings. [J]. Journal Royal Microscopical Society 88(1), 630-634 (1999). </li>
+<li>13. Bradley, M. M., Lang, P. J.: Affective norms for English Text (ANET): Affective ratings of text and instruction manual. Technical Report D1 University of Florida, 1-25 (2007).</li> 
+<li>14. Xin, W., Jingna, J., Li, S., et al.: Study on the early metaphase component difference of ERP induced by scene situation and facial expression picture. [J]. Chinese Journal of Bio- medical Engineering 34(3), 257-263 (2015). (in Chinese) </li>
+<li>15. Siemer, M., Mauss, I., Gross, J.: Same situation--Different emotions: How appraisals shape our emotions. [J]. Emotion 7(3), 592 (2007).</li>
+<li>16. Bradley, M. M, Lang, P. J.: Measuring emotion: the Self-Assessment Manikin and the Se- mantic Differential. [J]. Journal of Behavior Therapy & Experimental Psychiatry 25(1), 49 (1994). </li>
+<li>17. Liu T.S., Luo Y.J., Ma H., et al.: The compilation and evaluation of localized emotional sound library. [J]. Psychosocial Science 29 (2), 406-408 (2006). (in Chinese) </li>
+<li>18. Xu P.F, Huang Y.X., Luo Y.J..: Preliminary compilation and evaluation of Chinese emotional image materials library. [J]. Chinese Journal of Mental Health 24(7) 551-554 (2010). (in Chinese) </li></ul><br><br></p>
+
+																									
+
+																									</ul></p>
+
+
+
+
+																								</body>
+																								</html>

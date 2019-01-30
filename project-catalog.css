@@ -1,12 +1,66 @@
 a{
-font-family: 'DINosaur', sans-serif;
+font-family: 'DINosaur',sans-serif;
+font-weight: 300;
+font-style: normal;
 
 }
 
 p{
-font-family: 'DINosaur', sans-serif;
+font-family: 'DINosaur',sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 150%;
+}
+
+h3{
+font-family: 'DIN Condensed', sans-serif;
 
 }
+
+h4{
+font-family: 'DIN Condensed', sans-serif;
+}
+
+h2{
+font-family: 'DIN Condensed', sans-serif;
+color: gray;
+/*line-height: 0%;*/
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-family: 'DINosaur', sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 150%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+li{
+font-family: 'DINosaur', sans-serif;
+color: gray;
+font-family: 'DINosaur', sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 150%;
+}
+
+ol{
+ font-family: 'DINosaur', sans-serif;
+color: gray; 
+}
+
+ul{
+  font-family: 'DINosaur', sans-serif;
+color: gray;
+}
+
 a:link {
     color: black; 
     background-color: transparent; 
@@ -50,6 +104,7 @@ float:left;
 background-color:white;
 margin:0;  
 padding:10px;
+top:-10px;
 /*为什么有白边*/
 }
 
@@ -59,7 +114,7 @@ padding:10px;
 width:200px;
 height:100%;
 position:fixed;
-top:120px;
+top:160px;
 background-color:white;
 padding:10px;
 }
