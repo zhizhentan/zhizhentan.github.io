@@ -1,0 +1,591 @@
+
+*
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	
+    box-sizing: border-box;
+
+}
+
+/* illus.css copy */
+
+.project-list{
+width:((100%)-200px);
+height:100%;
+background-color:white;
+margin:0;
+position:absolute;
+top:0;
+left:210px;
+float:right;
+margin:0;
+/* 为什么取消了margin不是相切而是重合*/
+}
+
+.main-navigation{
+width:200px;
+height:100%;
+position:fixed;
+float:left;
+background-color:white;
+margin-left: 10px;  
+/*margin-left: 10px;            why safari is differetn from chrome*/           
+padding:10px;
+/*top:-10px;*/
+/*为什么有白边*/
+}
+
+
+
+.project-navigation{
+  color: gray;
+width:200px;
+height:100%;
+position:fixed;
+top:160px;
+background-color:white;
+padding:10px;
+margin-left: 10px;  
+}
+
+a{
+font-family: 'DINosaur',sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+
+}
+
+p{
+font-family: 'DINosaur', sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 24px;
+font-size: 16px;
+color: gray;
+}
+
+h2{
+font-family: 'DIN Condensed', sans-serif;
+color: gray;
+    display: block;
+    font-size: 24px;
+    margin-block-start:19.92px;
+    margin-block-end: 19.92px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+table {
+  font-family: DINosaur, sans-serif;
+  border-collapse: collapse;
+  color:gray;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-family: 'DINosaur', sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 150%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+li{
+font-family: 'DINosaur', sans-serif;
+color: gray;
+font-family: 'DINosaur', sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 24px;
+}
+
+=======
+>>>>>>> parent of c40dd75... fl2
+
+span.p2{
+  font-weight: bold;
+   /*color: black;*/
+   background-color:yellow; 
+   font-family: 'DIN Condensed', sans-serif;
+color: gray;
+   font-size: 20px;"
+}
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;}
+/*怎么定义两种的hover状态*/
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+.img-container {
+    float: left;
+    width: 100%;
+    padding: 6px;
+    margin:0;
+    text-align:center;
+    position:relative;
+
+}
+
+/*project 图片上的浮窗*/
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position:relative;
+}
+.text {
+ opacity: 0;
+   position:absolute;
+  text-align:center;
+
+ 
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .image {
+  opacity: 0.2;
+  position:relative;
+}
+
+.img-container:hover .text {
+  opacity: 1;
+   position:absolute;
+  left:35%;
+  top:40%;
+  right:40%;
+  float:center;
+  font-size:26px;
+}
+
+.refer {
+color: gray;
+float: left;
+text-align: left;
+position: absolute;
+right: 0;
+left:14vw;
+bottom: -152vh;
+}
+
+
+/*end copying */
+
+
+
+
+
+
+
+
+
+/*PROJECT*/
+.left
+{
+	width: 960px;           /*default 710px*/
+	margin: 5px;
+	margin-left: -100px;     /*default -235px*/
+    float: left;
+
+}
+.right
+{
+	width: 230px;
+	margin: 5px;
+	left: 1160px;             /*default 810px*/
+	float: left;
+	color: gray;	
+
+
+}
+.media
+{
+	width: 100%;
+}
+.media IMG
+{
+	width: 100%;
+    height: auto;
+}
+.media SPAN
+{
+	display: block;
+	margin-bottom: 1em;
+	font-size: 90%;
+	/*[disabled]font-style:italic;*/
+}
+.nav A
+{
+	display: block;
+}
+.nav A.nextproject
+{
+	margin-top: 3em;
+	font-family: NeuzeitSLTW01-BookHeavy, Arial;
+	line-height: 1.4em;
+	margin-bottom: 2em;
+}
+.nav A.nextproject IMG
+{
+	/*+opacity:70%;*/
+	filter: alpha(opacity=70);
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+.nav A.nextproject:hover IMG
+{
+	/*+opacity:100%;*/
+	filter: alpha(opacity=100);
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+.nav A.nextproject:hover .thumb
+{
+	/*[disabled]border:1px solid #7A7A7A;*/
+	/*[disabled]width:228px;*/
+	/*[disabled]height:170px;*/
+}
+.dptinfo, .navmobile .nextproject
+{
+	display: block;
+	font-family: NeuzeitSLTW01-BookHeavy, Arial;
+	z-index: 1000;
+	text-transform: capitalize;
+	/*[disabled]+placement:anchor-top-left 0px -63px;*/
+	text-decoration: underline;
+	padding-left: 12px;
+	background-image: url(data:image/gif;base64,R0lGODlhBgAGAKIAAOnp6a+vr7a2tnl5eTw8PCAgIAAAAP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMEJEMjVFNUFFNzMxMUUxQTkzQkU3OTlCMzhEOTRGRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMEJEMjVFNkFFNzMxMUUxQTkzQkU3OTlCMzhEOTRGRCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjMwQkQyNUUzQUU3MzExRTFBOTNCRTc5OUIzOEQ5NEZEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjMwQkQyNUU0QUU3MzExRTFBOTNCRTc5OUIzOEQ5NEZEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAYABgAAAxAot1ukzZh3ipTBmgEO4UwCADs=);
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	margin-top: 4px;
+}
+.navmobile A
+{
+	text-decoration: none !important;
+}
+.navmobile .dptinfo
+{
+	text-transform: lowercase;
+}
+.navmobile .back
+{
+	background-image: url(data:image/gif;base64,R0lGODlhBgAGAKIAAOnp6a+vr7a2tnl5eTw8PCAgIAAAAP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMEJEMjVFOUFFNzMxMUUxQTkzQkU3OTlCMzhEOTRGRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMEJEMjVFQUFFNzMxMUUxQTkzQkU3OTlCMzhEOTRGRCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjMwQkQyNUU3QUU3MzExRTFBOTNCRTc5OUIzOEQ5NEZEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjMwQkQyNUU4QUU3MzExRTFBOTNCRTc5OUIzOEQ5NEZEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAYABgAAAxB4CkPHxpQQYzmCWIXJ5VgCADs=);
+}
+.text
+{
+	margin-bottom: 1em;
+}
+.right A
+{
+	text-decoration: underline;
+}
+.right A:hover
+{
+	text-decoration: none;
+}
+.text A
+{
+	font-family: "Neuzeit S LT W01 Book";
+}
+SPAN.read-more A
+{
+	display: block;
+	margin-bottom: 1em;
+}
+SPAN.read-less
+{
+    display: block;
+	margin-top: -0.9em;
+}
+
+.thumb
+{
+	margin-top: 0.4em;
+	display: block;
+	/*[disabled]background:#BDBDBD;*/
+	width: 230px;
+	height: 172px;
+	overflow: hidden;
+}
+/*[clearfix]*/#wrap
+{
+
+    float: left;
+
+    text-align:left;
+    position:relative;
+
+	width: 1190px;               /*-=--sdfadsfasdfadsfadsfdsafdsfdsafa 图片极限尺寸   = left.width + right.width*/
+	margin: 0 auto;
+	/*[ph]0*/
+	padding-bottom: 50px;
+	margin-top: 16px;
+}
+@media only screen and (min-width: 740px) and (max-width: 959px)
+{
+/*[clearfix]*/	#wrap
+	{
+		/*[id]0*/width: 720px;
+	}
+/*INFO*/
+}
+/*[clearfix]*/.static .left .in1
+{
+	/*[disabled]font-size:110%;*/
+	padding-right: 134px;
+}
+.section.hide
+{
+	display: none;
+}
+#submenu
+{
+	list-style: none;
+	margin-bottom: 2em;
+	margin-top: 1px;
+	line-height: 1.4em;
+}
+#submenu LI:last-child
+{
+	margin-top: 1px;
+}
+#submenu A.selected
+{
+	color: #000000;
+	font-family: NeuzeitSLTW01-BookHeavy, Arial;
+}
+#submenu A.selected:before
+{
+	/*[disabled]content:'â€” ';*/
+}
+#section-qa P STRONG
+{
+	display: block;
+	/*[disabled]text-indent:2.5em;*/
+}
+#section-staff P, #section-visitingguests P, #section-credits P
+{
+	margin: 0;
+}
+/*MEDIA QUERY 740 - 959*/
+@media only screen and (min-width: 740px) and (max-width: 959px)
+{
+/*[clearfix]*/	#content .left
+	{
+		width: 470px;
+	}
+	#content .right
+	{
+		left: 480px;
+	}
+}
+.static .left .in1
+{
+	/*[ph]1*/
+	/*[ph]2*/
+}
+@media only screen and (min-width: 740px) and (max-width: 959px)
+{
+	.static .left .in1
+	{
+		/*[id]1*/padding-right: 30px;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 739px)
+{
+	.static .left .in1
+	{
+		/*[id]2*/padding-right: 10px;
+	}
+/*MEDIA QUERY 480 - 739*/
+	#wrap
+	{
+		width: 100%;
+	}
+	.in1, .in2
+	{
+		margin: 5px;
+	}
+	.in1
+	{
+		margin-left: 15px;
+	}
+	.in2
+	{
+		margin-right: 20px;
+	}
+	#header
+	{
+		margin-left: 14px;
+		padding-left: 0px;
+	}
+	.left, .right
+	{
+		width: 50%;
+		margin: 0;
+	}
+	.left
+	{
+		margin-left: -50%;
+	}
+	.right
+	{
+		left: 50%;
+	}
+/*MEDIA QUERY < 480*/
+}
+@media only screen and (max-width: 599px)
+{
+	.static .left .in1
+	{
+		padding-right: 0px;
+	}
+	BODY.mobile
+	{
+		font-size: 110%;
+	}
+	#wrap
+	{
+		width: 100%;
+	}
+	.in1, .in2
+	{
+		margin: 15px;
+	}
+	#header
+	{
+		margin-left: 14px;
+		padding-left: 0px;
+		padding-top: 16px;
+		height: auto;
+	}
+	.project #header
+	{
+		height: 11em;
+	}
+	#header H1
+	{
+		width: 10em;
+	}
+	.left, .right
+	{
+		width: 100%;
+		margin: 0;
+		left: 0;
+	}
+	.home #content
+	{
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	#content .sprite
+	{
+		float: left;
+		margin: 5px;
+		width: 140px;
+		height: 105px;
+		overflow: hidden;
+		background: #0150D3 url(blankscreen.jpg);
+		background-size: 140px 105px;
+	}
+	#content .curtain
+	{
+		display: none;
+	}
+	.sprite .title
+	{
+		position: absolute;
+		letter-spacing: -1px;
+		width: 140px;
+		height: 105px;
+		z-index: 100;
+		/*+opacity:0;*/
+		filter: alpha(opacity=0);
+		-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+		-moz-opacity: 0;
+		opacity: 0;
+		filter: alpha(opacity=100);
+		-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		-moz-opacity: 1;
+		opacity: 1;
+	}
+	.sprite H2
+	{
+		display: table-cell;
+		width: 140px;
+		height: 105px;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 200;
+		color: #000000;
+		/*[disabled]text-transform:uppercase;*/
+		padding: 0 5px;
+		font-size: 200%;
+		line-height: 1.1em;
+	}
+	#content .sprite A
+	{
+		z-index: 800;
+		font-size: 60%;
+	}
+	#content .help
+	{
+		display: none;
+	}
+	.navmobile A
+	{
+		text-decoration: none;
+		display: block;
+		margin-top: 0;
+		font-family: NeuzeitSLTW01-BookHeavy, Arial;
+		text-transform: none !important;
+	}
+	.navmobile
+	{
+		margin-bottom: 1em;
+	}
+}
