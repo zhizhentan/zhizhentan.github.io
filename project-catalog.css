@@ -48,7 +48,7 @@ color: gray;
 font-family: 'DINosaur', sans-serif;
 font-weight: 300;
 font-style: normal;
-line-height: 150%;
+line-height: 24px;
 }
 
 ol{
@@ -96,28 +96,6 @@ li{
   padding:0px;
 }
 
-.main-navigation{
-width:200px;
-height:100%;
-position:fixed;
-float:left;
-background-color:white;
-margin:0;  
-padding:10px;
-top:-10px;
-/*为什么有白边*/
-}
-
-
-.project-navigation{
-  color: gray;
-width:200px;
-height:100%;
-position:fixed;
-top:160px;
-background-color:white;
-padding:10px;
-}
 
 .project-list{
 width:((100%)-200px);
@@ -130,6 +108,33 @@ left:210px;
 float:right;
 margin:0;
 /* 为什么取消了margin不是相切而是重合*/
+}
+
+.main-navigation{
+width:200px;
+height:100%;
+position:fixed;
+float:left;
+background-color:white;
+margin-left: 10px;  
+padding-top: 10px;
+/*margin-left: 10px;            why safari is differetn from chrome*/           
+padding:10px;
+/*top:-10px;*/
+/*为什么有白边*/
+}
+
+
+
+.project-navigation{
+  color: gray;
+width:200px;
+height:100%;
+position:fixed;
+top:160px;
+background-color:white;
+padding:10px;
+margin-left: 10px;  
 }
 
 
