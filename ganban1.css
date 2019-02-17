@@ -231,6 +231,7 @@ bottom: -152vh;
 	margin: 5px;
 	margin-left: -100px;     /*default -235px*/
     float: left;
+    background-color: white;
 
 }
 .right
@@ -239,7 +240,8 @@ bottom: -152vh;
 	margin: 5px;
 	left: 1160px;             /*default 810px*/
 	float: left;
-	color: gray;	
+	color: gray;
+	background-color: white;	
 
 
 }
