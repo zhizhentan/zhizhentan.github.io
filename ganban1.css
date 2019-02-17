@@ -56,6 +56,7 @@ a{
 font-family: 'DINosaur',sans-serif;
 font-weight: 300;
 font-style: normal;
+background-color: white;
 
 
 
@@ -68,6 +69,7 @@ font-style: normal;
 line-height: 24px;
 font-size: 16px;
 color: gray;
+background-color: white;
 }
 
 h2{
@@ -113,6 +115,7 @@ font-family: 'DINosaur', sans-serif;
 font-weight: 300;
 font-style: normal;
 line-height: 24px;
+background-color: white;
 }
 
 =======
@@ -231,7 +234,7 @@ bottom: -152vh;
 	margin: 5px;
 	margin-left: -100px;     /*default -235px*/
     float: left;
-    background-color: white;
+    
 
 }
 .right
@@ -241,7 +244,7 @@ bottom: -152vh;
 	left: 1160px;             /*default 810px*/
 	float: left;
 	color: gray;
-	background-color: white;	
+	
 
 
 }
