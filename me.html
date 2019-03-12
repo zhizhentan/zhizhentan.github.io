@@ -18,6 +18,21 @@
 </head>
 <body lang = "en" >
 
+	<script type="text/javascript">
+		function passWord_(){
+
+    var password = "1331";
+    var x = prompt("Enter in the password "," ");
+    if (x == password) {
+    window.location = "pic/zhizhenTanResume.pdf";
+}
+else {
+	alert("OOPS! Wrong password");
+  window.location = "me.html";
+}
+}
+</script>
+
 
 
 	<div class="main-navigation" >
@@ -90,7 +105,7 @@
 									<a href="mailto:tanzhizhen96@gmail.com?Subject=What's%20up！" target="_top" style="color: gray"><u>tanzhizhen96@gmail.com</u><br><br></a>
 
 									Resume:<br>
-									<a href="pic/zhizhenTanResume.pdf" target="_top" style="color: gray"><u>Zhizhen Tan Resume.pdf</u><br><br></a>
+									<a  target="_top" style="color: gray"  onclick="passWord_()"><u>Zhizhen Tan Resume.pdf</u><br><br></a>
 
 
 									More info:<br>
